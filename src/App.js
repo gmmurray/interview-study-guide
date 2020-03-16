@@ -1,26 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route,} from 'react-router-dom';
+
+import Home from './pages/home';
+import Concepts from './pages/concepts';
+import Problems from './pages/problems';
+import Resources from './pages/resources';
+import Sidebar from './components/sidebar';
+import routes from './routes';
+
+import 'bulma/css/bulma.css';
+import './styles.scss';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<Router>
+			<div className="fullpage has-background-dark">
+				<div className="columns">
+					<div className="column is-one-fifth has-background-light is-fullwidth">
+						<Sidebar links={routes} />
+					</div>
+					<div className="column has-background-white">
+						<Switch>
+							<Route path="/concepts">
+								<Concepts />
+							</Route>
+							<Route path="/problems">
+								<Problems />
+							</Route>
+							<Route path="/resources">
+								<Resources />
+							</Route>
+							<Route path="/">
+								<Home />
+							</Route>
+						</Switch>
+					</div>
+				</div>
+			</div>
+		</Router>
+	);
 }
 
 export default App;
