@@ -4,6 +4,10 @@
 
     .has-margin {
         margin: 1.5rem;
+
+        &--small {
+            margin: 1rem;
+        }
     }
 
     .__subheader--top-padding {
