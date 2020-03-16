@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/interview-study-guide/static/css/main.64e12932.chunk.css",
+    "main.js": "/interview-study-guide/static/js/main.b985cd0b.chunk.js",
+    "main.js.map": "/interview-study-guide/static/js/main.b985cd0b.chunk.js.map",
+    "runtime-main.js": "/interview-study-guide/static/js/runtime-main.800e21fe.js",
+    "runtime-main.js.map": "/interview-study-guide/static/js/runtime-main.800e21fe.js.map",
+    "static/css/2.aeed1b96.chunk.css": "/interview-study-guide/static/css/2.aeed1b96.chunk.css",
+    "static/js/2.078ec829.chunk.js": "/interview-study-guide/static/js/2.078ec829.chunk.js",
+    "static/js/2.078ec829.chunk.js.map": "/interview-study-guide/static/js/2.078ec829.chunk.js.map",
+    "index.html": "/interview-study-guide/index.html",
+    "precache-manifest.811624f2d5be551a4df93052aac2c6da.js": "/interview-study-guide/precache-manifest.811624f2d5be551a4df93052aac2c6da.js",
+    "service-worker.js": "/interview-study-guide/service-worker.js",
+    "static/css/2.aeed1b96.chunk.css.map": "/interview-study-guide/static/css/2.aeed1b96.chunk.css.map",
+    "static/css/main.64e12932.chunk.css.map": "/interview-study-guide/static/css/main.64e12932.chunk.css.map",
+    "static/js/2.078ec829.chunk.js.LICENSE.txt": "/interview-study-guide/static/js/2.078ec829.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.800e21fe.js",
+    "static/css/2.aeed1b96.chunk.css",
+    "static/js/2.078ec829.chunk.js",
+    "static/css/main.64e12932.chunk.css",
+    "static/js/main.b985cd0b.chunk.js"
+  ]
+}
