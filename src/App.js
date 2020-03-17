@@ -18,7 +18,7 @@ import './styles.scss';
 
 function App() {
 	return (
-		<Router>
+		<Router basename={process.env.PUBLIC_URL}>
 			<div className="fullpage has-background-dark">
 				<div className="columns">
 					<div className="column is-one-fifth has-background-light is-fullwidth">

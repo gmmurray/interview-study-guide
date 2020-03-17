@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ScrollToTopOnMount from '../helpers/scrollTop';
 
 const initialSolutions = {
 	one: false,
@@ -12,6 +13,7 @@ const Problems = props => {
 	const [solutions, setSolutions] = useState(initialSolutions);
 	return (
 		<div className="has-background-white">
+			<ScrollToTopOnMount />
 			<section>
 				<p className="title is-1">Problems</p>
 				<p className="subtitle is-3">
